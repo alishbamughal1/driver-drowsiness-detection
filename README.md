@@ -2,80 +2,64 @@
 
 ## 📌 Overview
 
-Driver drowsiness is a major cause of road accidents worldwide. This project presents a real-time driver drowsiness detection system using computer vision techniques to monitor driver alertness and prevent potential accidents.
+Driver fatigue is one of the leading causes of road accidents. This project presents a real-time drowsiness detection system using computer vision techniques to monitor driver alertness and prevent accidents.
 
 ---
 
 ## 🎯 Objective
 
-The main objective of this project is to enhance road safety by detecting early signs of driver fatigue and providing timely alerts.
+To detect driver drowsiness in real-time and trigger alerts to enhance road safety.
 
 ---
 
 ## ⚙️ Technologies Used
 
 * Python
-* YOLOv8 (Object Detection Model)
-* OpenCV (Computer Vision)
+* YOLOv8
+* OpenCV
 * NumPy
 
 ---
 
-## 🧠 Methodology / Working
+## 🧠 Methodology
 
-1. The system captures real-time video input from a webcam.
-2. YOLOv8 model is used to detect facial features, especially eyes.
-3. Eye state (open/closed) is continuously monitored.
-4. If eyes remain closed for a specific duration, the system identifies drowsiness.
-5. An alert (sound/notification) is triggered to wake the driver.
+* Captures real-time video from webcam
+* Detects facial features (especially eyes) using YOLOv8
+* Monitors eye closure duration
+* Triggers alert if drowsiness is detected
 
 ---
 
 ## 📊 Features
 
-* Real-time monitoring
-* Fast and efficient object detection using YOLOv8
+* Real-time detection
+* Fast object detection with YOLOv8
 * Automated alert system
-* Can be extended for vehicle safety systems
-
----
-
-## 🚀 Future Improvements
-
-* Improve accuracy with larger datasets
-* Add head pose detection
-* Deploy as a mobile or embedded system
-* Integrate with IoT-based vehicle systems
-
----
-
-## 📂 Project Structure
-
-* `notebook.ipynb` → Main implementation
-* `model/` → Trained model files
-* `utils/` → Helper functions
-
----
-
-## ▶️ How to Run
-
-1. Install required libraries:
-
-   ```bash
-   pip install opencv-python ultralytics numpy
-   ```
-2. Run the Jupyter Notebook
-3. Ensure webcam is connected
 
 ---
 
 ## 📈 Results
 
-The system successfully detects driver drowsiness in real-time and provides alerts, helping reduce the risk of accidents.
+The system successfully detects drowsiness and provides real-time alerts, improving driver awareness.
 
 ---
 
-## 📫 Contact
+## 🚀 Future Improvements
 
-**Alishba**
-📧 [malishba510@gmail.com](mailto:malishba510@gmail.com)
+* Head pose detection
+* Mobile/embedded deployment
+* Improved model accuracy with larger datasets
+
+---
+
+## ▶️ How to Run
+
+1. Install dependencies
+2. Run the notebook or script
+3. Enable webcam
+
+---
+
+## 📫 Author
+
+Alishba
